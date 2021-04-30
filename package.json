@@ -1,0 +1,20 @@
+{
+  "name": "B-DayWishes",
+  "version": "1.0.0",
+  "description": "Bday card with unique link can be sent to friends and family.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smgenz-labs/B-DayWishes.git"
+  },
+  "keywords": [],
+  "author": "SMGenz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smgenz-labs/B-DayWishes/issues"
+  },
+  "homepage": "https://github.com/smgenz-labs/B-DayWishes#readme"
+}
