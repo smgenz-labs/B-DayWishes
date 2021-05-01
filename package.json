@@ -6,11 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smgenz-labs/B-DayWishes.git"
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "SMGenz",
@@ -27,5 +23,17 @@
   },
   "devDependencies": {
     "react-scripts": "^4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
