@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/smgenz-labs/B-DayWishes/issues"
   },
-  "homepage": "https://github.com/smgenz-labs/B-DayWishes#readme",
+  "homepage": "https://smgenz-labs.github.io/B-DayWishes/",
   "dependencies": {
     "parcel-bundler": "^1.12.5",
     "react": "^17.0.2",
