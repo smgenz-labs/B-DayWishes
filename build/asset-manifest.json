@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.js": "/smgenz-labs/B-DayWishesstatic/js/main.09cfb2df.chunk.js",
-    "main.js.map": "/smgenz-labs/B-DayWishesstatic/js/main.09cfb2df.chunk.js.map",
-    "runtime-main.js": "/smgenz-labs/B-DayWishesstatic/js/runtime-main.61a0a476.js",
-    "runtime-main.js.map": "/smgenz-labs/B-DayWishesstatic/js/runtime-main.61a0a476.js.map",
-    "index.html": "/smgenz-labs/B-DayWishesindex.html"
+    "main.css": "/B-DayWishes/static/css/main.0393e3f9.chunk.css",
+    "main.js": "/B-DayWishes/static/js/main.bd239481.chunk.js",
+    "main.js.map": "/B-DayWishes/static/js/main.bd239481.chunk.js.map",
+    "runtime-main.js": "/B-DayWishes/static/js/runtime-main.0e47309e.js",
+    "runtime-main.js.map": "/B-DayWishes/static/js/runtime-main.0e47309e.js.map",
+    "static/js/2.c3ab1be1.chunk.js": "/B-DayWishes/static/js/2.c3ab1be1.chunk.js",
+    "static/js/2.c3ab1be1.chunk.js.map": "/B-DayWishes/static/js/2.c3ab1be1.chunk.js.map",
+    "index.html": "/B-DayWishes/index.html",
+    "static/css/main.0393e3f9.chunk.css.map": "/B-DayWishes/static/css/main.0393e3f9.chunk.css.map",
+    "static/js/2.c3ab1be1.chunk.js.LICENSE.txt": "/B-DayWishes/static/js/2.c3ab1be1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.61a0a476.js",
-    "static/js/main.09cfb2df.chunk.js"
+    "static/js/runtime-main.0e47309e.js",
+    "static/js/2.c3ab1be1.chunk.js",
+    "static/css/main.0393e3f9.chunk.css",
+    "static/js/main.bd239481.chunk.js"
   ]
 }
