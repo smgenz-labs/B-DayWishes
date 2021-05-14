@@ -1,0 +1,13 @@
+@font-face{font-family:"google";src:url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2)}
+
+.heading{
+	display:flex;
+	/*justify-content:center;*/
+	/*align-items:center;*/
+	font-family: "google";
+	color:black;
+	margin:20px;
+}
+.heading>p{
+	font-weight:800;
+}
