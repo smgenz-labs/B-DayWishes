@@ -1,12 +1,20 @@
 import React from "react";
-import "../style/App.css"
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import "../styles/App.css"
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Home from './Home';
 
 const App = () => {
   return (
     <>
-      <div className="coming__soon">
+      {/*<div className="coming__soon">
           <h1>Coming Soon..</h1>
-      </div>
+      </div>*/}
+	  <Router>
+		<Switch>
+			<Route path="/" component={Home}/>
+		</Switch>
+	  </Router>
     </>
   );
 };
