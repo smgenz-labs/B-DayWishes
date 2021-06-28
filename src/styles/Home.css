@@ -1,13 +1,66 @@
-@font-face{font-family:"google";src:url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2)}
-
-.heading{
-	display:flex;
-	/*justify-content:center;*/
-	/*align-items:center;*/
-	font-family: "google";
-	color:black;
-	margin:20px;
+@font-face {
+  font-family: "google";
+  src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
 }
-.heading>p{
-	font-weight:800;
+
+.heading {
+  display: flex;
+  /*justify-content:center;*/
+  /*align-items:center;*/
+  font-family: "google";
+  color: black;
+  margin: 20px;
+}
+.heading > p {
+  font-weight: 800;
+}
+.home__land {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.home__row {
+  width: 100%;
+}
+.upper__heading {
+  font-weight: 600;
+  font-size: 45px;
+  font-family: google;
+}
+.lower__heading {
+  font-size: 20px;
+  color: grey;
+  padding-left: 10px;
+  font-family: google;
+}
+.image__holder {
+  display: flex;
+  justify-content: center;
+}
+.image__holder > img {
+  object-fit: contain;
+  height: 450px;
+}
+.head__holder {
+  display: flex;
+  justify-content: center;
+}
+.button__holder {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.button__holder > a > button {
+  margin: 0px;
+  border: 0px;
+  border-radius: 20px;
+  background-color: #5af6de;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+}
+#info {
+  margin-top: 100px;
 }
