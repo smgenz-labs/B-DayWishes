@@ -23,7 +23,7 @@ const Home = () => {
             <span className="lower__heading">For your loved ones</span>
           </Col>
           <Col className="image__holder">
-            <img src={bday} alt="bday_img" />
+            <img src={bday} />
           </Col>
         </Row>
       </Container>
