@@ -15,9 +15,11 @@
   font-weight: 800;
 }
 .home__land {
+  /* margin-top: 70px; */
   height: 80vh;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .home__row {
   width: 100%;
@@ -62,5 +64,44 @@
   padding: 10px 20px 10px 20px;
 }
 #info {
-  margin-top: 100px;
+  margin-top: 200px;
+}
+.work__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work__head > span {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: ubuntu;
+}
+.works {
+  background-color: rgb(112, 41, 162);
+  color: white;
+  padding: 3px 7px 3px 7px;
+  border-radius: 10px;
+}
+.create__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.create__card > a > button {
+  margin: 0px;
+  border: 0px;
+  border-radius: 20px;
+  background-color: #1a9adf;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-family: ubuntu;
+  transition: 0.25s ease-out;
+}
+.create__card > a > button:hover {
+  background-color: #1279b1;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 13%);
+  font-size: 22px;
 }

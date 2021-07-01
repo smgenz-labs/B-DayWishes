@@ -1,39 +1,42 @@
-.back{
-	position:absolute;
-	z-index:-999;
-	margin: 30px;
-    font-size: 200px;
-    font-weight: 800;
-	margin-top:57px;
-	color:black;
-	
+.back {
+  position: absolute;
+  z-index: -999;
+  margin: 30px;
+  font-size: 200px;
+  font-weight: 800;
+  margin-top: 57px;
+  color: black;
 }
-.back:hover{
- color: transparent;
-   text-shadow: 0 0 5px rgba(0,0,0,0.9);
+.back:hover {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 }
-.step__card{
-object-fit:contain;
-	padding:64px 32px 64px 32px;
-	border-radius: 20px;
-	/*background: linear-gradient(4deg, rgba(4,107,162,1) 0%, rgba(2,126,193,1) 37%, rgba(0,166,255,1) 88%);
+.step__card {
+  object-fit: contain;
+  padding: 64px 32px 64px 32px;
+  border-radius: 20px;
+  /*background: linear-gradient(4deg, rgba(4,107,162,1) 0%, rgba(2,126,193,1) 37%, rgba(0,166,255,1) 88%);
 	#095365
 	color:rgba(2,126,193,1);
 	*/
-	background: linear-gradient(32deg, rgba(24, 218, 255, 0.9) 0%, rgba(91, 255, 205, 0.9) 100%);
-	width:fit-content;
-	color:#095365;
-	height:fit-content;
-	font-family:"google";
-	max-width:400px;
-	box-shadow: 0 4px 8px rgb(0 0 0 / 13%);
-	position:relative;
-	z-index:999;
-	margin:10px;
-	cursor:context-menu;
+  background: linear-gradient(
+    32deg,
+    rgba(24, 218, 255, 0.9) 0%,
+    rgba(91, 255, 205, 0.9) 100%
+  );
+  width: fit-content;
+  color: #095365;
+  height: fit-content;
+  font-family: "google";
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 13%);
+  position: relative;
+  z-index: 999;
+  margin: 10px;
+  cursor: context-menu;
 }
 span:hover > .back {
-   filter: blur(4px); 	
+  filter: blur(4px);
   animation: shake 1s;
   animation-iteration-count: linear;
 }
@@ -52,36 +55,45 @@ span:hover > .back {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }*/
 
-.logo__block{
-	background: white;
-	padding:15px;
-	width:fit-content;
-	max-width: 70px;
-	border-radius:20px;
-	margin-bottom: 20px;
-	box-shadow: 0 4px 8px rgb(0 0 0 / 13%);
+.logo__block {
+  background: white;
+  padding: 15px;
+  width: fit-content;
+  max-width: 70px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 13%);
 }
-p{
-	margin:0px;
-	font-size:18px;
-	/*letter-spacing:0.02em;*/
+p {
+  margin: 0px;
+  font-size: 18px;
+  /*letter-spacing:0.02em;*/
 }
-h2{
-	margin:0px;
-	font-weight: 800;
-	margin-bottom: 10px;
+h2 {
+  margin: 0px;
+  font-weight: 800;
+  margin-bottom: 10px;
 }
-.second__card{
-	background: linear-gradient(4deg, rgba(4,107,162,0.9) 0%, rgba(2,126,193,0.9) 37%, rgba(0,166,255,0.9) 88%);
-	color:rgba(2,126,193,1);
+.second__card {
+  background: linear-gradient(
+    4deg,
+    rgba(4, 107, 162, 0.9) 0%,
+    rgba(2, 126, 193, 0.9) 37%,
+    rgba(0, 166, 255, 0.9) 88%
+  );
+  color: rgba(2, 126, 193, 1);
 }
-.second__card>p{
-	color:white;
+.second__card > p {
+  color: white;
 }
-.second__card>h2{
-	color:white
+.second__card > h2 {
+  color: white;
 }
-.third__card{
-	background: linear-gradient(to bottom, rgba(255, 212, 64, 0.9) 0%, rgba(255, 88, 88, 0.9) 100%);
-    color: #5d114c;
+.third__card {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 212, 64, 0.9) 0%,
+    rgba(255, 88, 88, 0.9) 100%
+  );
+  color: #5d114c;
 }

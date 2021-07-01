@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import { Container, Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import AssignmentTurnedInIcon from "@material-ui/icons/AssignmentTurnedIn";
 import CakeIcon from "@material-ui/icons/Cake";
 import MouseIcon from "@material-ui/icons/Mouse";
@@ -32,8 +33,13 @@ const Home = () => {
           <button>↓</button>
         </a>
       </div>
-      <Container id="info" style={{ height: "80vh" }}>
-        <Row className="align-items-center" style={{ height: "100%" }}>
+      <Container id="info" style={{ height: "100%" }}>
+        <div className="work__head">
+          <span>
+            How it <span className="works">Works</span>.
+          </span>
+        </div>
+        <Row className="align-items-center" style={{ marginTop: "40px" }}>
           <Col md>
             <Card
               num="1"
@@ -65,6 +71,13 @@ const Home = () => {
             </Card>
           </Col>
         </Row>
+        <div className="create__card">
+          <Link to="/Forms">
+            <button>
+              <strong>Create your card now →</strong>
+            </button>
+          </Link>
+        </div>
       </Container>
     </>
   );
