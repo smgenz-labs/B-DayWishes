@@ -1,5 +1,4 @@
 {
-  "homepage": "https://smgenz-labs.github.io/B-DayWishes",
   "name": "B-DayWishes",
   "version": "1.0.0",
   "description": "Bday card with unique link can be sent to friends and family.",
@@ -23,8 +22,9 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "react-scripts": "^4.0.3",
-    "parcel-bundler": "^1.12.5"
+    "firebase": "^8.7.0",
+    "parcel-bundler": "^1.12.5",
+    "react-scripts": "^4.0.3"
   },
   "browserslist": {
     "production": [

@@ -1,5 +1,7 @@
 import firebase from "firebase/app";
 
+import "firebase/auth";
+
 const firebaseConfig = {
   apiKey: "AIzaSyA3qz8DGs7ggBneH8JKwrZ_SdYascb41v0",
   authDomain: "b-daywishes.firebaseapp.com",
@@ -11,3 +13,6 @@ const firebaseConfig = {
 };
 
 const firebaseInit = firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+
+export { auth };

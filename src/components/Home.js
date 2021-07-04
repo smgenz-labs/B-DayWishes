@@ -6,7 +6,7 @@ import AssignmentTurnedInIcon from "@material-ui/icons/AssignmentTurnedIn";
 import CakeIcon from "@material-ui/icons/Cake";
 import MouseIcon from "@material-ui/icons/Mouse";
 import "../styles/Home.css";
-import bday from "./assets/Wavy_Lst-01_Single-04.webp";
+import bday from "../assets/Wavy_Lst-01_Single-04.webp";
 
 const Home = () => {
   return (
