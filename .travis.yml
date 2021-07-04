@@ -13,8 +13,8 @@ install:
 
 script:
   - npm run build
-  - firebase deploy --only-hosting --token "$FIRE_TOK"
-# deploy:
+  - firebase deploy --only hosting --token "$FIRE_TOK"
+# deploy
 #   provider: pages
 #   skip_cleanup: true
 #   github-token: $GIT_TOK
