@@ -1,2 +1,0 @@
-(this["webpackJsonpB-DayWishes"]=this["webpackJsonpB-DayWishes"]||[]).push([[0],{10:function(e,n,s){"use strict";s.r(n);s(1);var t=s(3),c=(s(8),s(0)),i=function(){return Object(c.jsx)(c.Fragment,{children:Object(c.jsx)("div",{className:"coming__soon",children:Object(c.jsx)("h1",{children:"Coming Soon.."})})})};Object(t.render)(Object(c.jsx)(i,{}),document.getElementById("root"))},8:function(e,n,s){}},[[10,1,2]]]);
-//# sourceMappingURL=main.bd239481.chunk.js.map
